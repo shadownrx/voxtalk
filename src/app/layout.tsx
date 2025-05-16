@@ -22,6 +22,9 @@ const geistMono = localFont({
 export const metadata: Metadata = {
   title: "VOXTALK",
   description: "Plataforma creada por un solo estudiante para estudiantes y educadores",
+  icons: {
+    icon: "/phone-call.png",
+},
 };
 
 export default function RootLayout({
